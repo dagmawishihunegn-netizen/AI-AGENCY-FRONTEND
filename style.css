@@ -120,3 +120,25 @@ body {
 .card h3 {
     margin-bottom: 10px;
 }
+/* Add this to style.css to space out your sections */
+section {
+    padding: 100px 10%;
+    min-height: 400px;
+    text-align: center;
+    border-bottom: 1px solid #333; /* Adds a subtle line between sections */
+}
+
+/* Style for the headings in each section */
+section h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Style for the text in each section */
+section p {
+    font-size: 1.2rem;
+    color: #ccc;
+    max-width: 700px;
+    margin: 0 auto;
+}
